@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PowerGym</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="p-5 bg-dark">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="" alt="Logotipo PowerGym" class="nav-img" loading="lazy">
+            <ul class="nav mt-4">
+                <li class="nav-item"><a class="nav-link text-white" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#servicos">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo text-white">
+                    <h1 class="display-4 fst-italic fw-bold">Bem-vindo à</h1>
+                    <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1" alt="Logo secundária PowerGym" class="mb-3" width="400" height="200">
+                    <a href="#servicos" class="btn btn-primary btn-lg fw-semibold">Quero treinar!</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="my-5 pt-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Nossos Serviços</h2>
+                    <p>Na PowerGym, oferecemos musculação, personal trainer, aulas coletivas, pilates, yoga e muito mais! Temos estrutura completa e equipamentos modernos para o seu melhor desempenho.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1" class="img-fluid rounded-4" alt="Serviços da academia">
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="pt-5">
+            <h2 class="text-center">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="pt-5">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-4 bg-dark text-white">
+        <p>Siga-nos nas redes sociais:</p>
+        <i class="bi bi-whatsapp mx-2"></i>
+        <i class="bi bi-instagram mx-2"></i>
+        <i class="bi bi-facebook mx-2"></i>
+        <p class="mt-3">© 2025 PowerGym - Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
